@@ -1,10 +1,10 @@
 {
-  "name": "FwpmS6Theme",
+  "name": "Shopware6FWPM",
   "author": "Shopware AG",
   "views": [
      "@Storefront",
      "@Plugins",
-     "@FwpmS6Theme"
+     "@Shopware6FWPM"
   ],
   "style": [
     "app/storefront/src/scss/overrides.scss",

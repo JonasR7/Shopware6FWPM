@@ -5,14 +5,14 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "FwpmS6Theme\\": "src/"
+      "Shopware6FWPM\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "FwpmS6Theme\\FwpmS6Theme",
+    "shopware-plugin-class": "Shopware6FWPM\\Shopware6FWPM",
     "label": {
-      "de-DE": "Theme FwpmS6Theme plugin",
-      "en-GB": "Theme FwpmS6Theme plugin"
+      "de-DE": "Theme Shopware6FWPM plugin",
+      "en-GB": "Theme Shopware6FWPM plugin"
     }
   }
 }
