@@ -1,4 +1,46 @@
+body {
+  overflow-x:hidden;
+}
+
+.row.align-items-center.header-row {
+  margin-top: 30px;
+}
+
 .nav-main {
   display: flex;
   justify-content: center;
+  margin-top:30px;
+}
+
+#top-bar {
+  overflow: hidden;
+  background-color:blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 1360px;
+  z-index: 10;
+}
+
+.navigation-flyout {
+  width: 50%;
+}
+
+#container {
+  padding-right:0px;
+  padding-left:0px;
+}
+
+p.MsoNormal {
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  text-align:center;
+}
+
+.cms-element-text {
+  margin-top: 45px;
+  margin-bottom: 30px;
 }
