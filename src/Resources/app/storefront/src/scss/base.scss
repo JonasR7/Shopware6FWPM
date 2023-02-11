@@ -1,4 +1,4 @@
-body {
+ body {
   overflow-x:hidden;
 }
 
@@ -14,7 +14,7 @@ body {
 
 #top-bar {
   overflow: hidden;
-  background-color:blue;
+  background-color:black;
   color: white;
   position: fixed;
   top: 0;
@@ -37,10 +37,35 @@ p.MsoNormal {
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
-  text-align:center;
+  /*text-align:center;*/
 }
+
 
 .cms-element-text {
   margin-top: 45px;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+
+#top-bar {
+  margin-bottom: 50px!important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.MsoNormal {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+}
+
+ .row.product-detail-properties-container {
+   margin-left:450px;
+ }
+
+ @media only screen and (max-width: 600px) {
+   .row.product-detail-properties-container {
+     margin-left:450px;
+   }
+ }
